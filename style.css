@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    padding: 25px;
+    padding-top: 3px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+/* Main Game Div */
+div.main-game {
+    position: relative;
+    display: inline-block;
+}
+
+/* Game Bar */
+div.game-bar {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+}
+
+/* Bar Boxes */
+div.game-bar-box {
+    width: 100px;
+}
+
+/* Health */
+div.bar-box-health-container {
+    width: 100%;
+    background-color: #5B21B6;
+    height: 30px;
+    display: flex;
+    border: 4px solid #312E81; 
+
+}
+
+div.bar-box-health {
+    background-color: #818CF8;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    /*transition: all 0.75s linear;*/
+}
+
+div.bar-box-timer {
+    background-color: #3730A3;
+    border-radius: 4px;
+    height: 70px;
+    flex-shrink: 0;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 22px;
+    border: 3px solid #312E81; 
+}
+
+/* Game Result */
+div.game-result {
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    display: none;
+    font-size: 30px;
+}
+
+/* Game Canvas */
+canvas.game-canvas {
+    border-radius: 10px;
+    border: 5px solid #3B0764;
+}
