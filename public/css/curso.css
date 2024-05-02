@@ -1,0 +1,142 @@
+/* Course Custom CSS */
+.cursoBackground{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mainText{
+    color: white;
+}
+
+.materiasClearBoth{
+    clear: both;
+}
+
+/* Course Section */
+.cursoWrapper {
+    padding: 40px;
+}
+
+.materiasBoxSingle {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    color: white;
+    text-align: left;
+    backdrop-filter: blur(6px);
+    background-color: rgba(10, 116, 216, 0.4);
+    box-shadow: 0 0 10px 8px rgba(10, 116, 216, 0.35);
+}
+
+.materiasBoxSingle img {
+    border-radius: 7px;
+    width: 100%;
+    height: 250px;
+}
+
+.materiasBoxSingle h2,
+.materiasBoxSingle p {
+    margin: 10px 0;
+}
+
+.materiasBoxSingle:nth-child(even){
+    float: right;
+}
+
+.materiasBoxSingle:nth-child(1) img {
+    background-image: url('/public/assets/analise_bg.png');
+    background-size: 48%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.materiasBoxSingle:nth-child(2) {
+    background-color: rgba(221, 171, 5, 0.4);
+    box-shadow: 0 0 10px 8px rgba(221, 171, 5, 0.35);
+}
+
+.materiasBoxSingle:nth-child(2) img {
+    background-image: url('/public/assets/ciencias_bg.png');
+    background-size: 43%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.materiasBoxSingle:nth-child(3) {
+    background-color: rgba(68, 68, 68, 0.4);
+    box-shadow: 0 0 10px 8px rgba(68, 68, 68, 0.35);
+}
+
+.materiasBoxSingle:nth-child(3) img {
+    background-image: url('/public/assets/frontend.png');
+    background-size: 43%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.materiasBoxSingle:nth-child(4) {
+    background-color: rgba(131, 6, 189, 0.4);
+    box-shadow: 0 0 10px 8px rgba(131, 6, 189, 0.35);
+}
+
+.materiasBoxSingle:nth-child(4) img {
+    background-image: url('/public/assets/mobile.png');
+    background-size: 38%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.materiasBoxSingle:nth-child(5) {
+    background-color: rgba(12, 168, 12, 0.4);
+    box-shadow: 0 0 10px 8px rgba(12, 168, 12, 0.35);
+}
+
+.materiasBoxSingle:nth-child(5) img {
+    background-image: url('/public/assets/banco_dados_bg.png');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/**************************************/
+/* Responsive */
+@media screen and (max-width: 878px){
+
+    .materiasBoxSingle img {
+        background-size: 65% !important;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .materiasBoxSingle {
+        margin: 35px 0;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+        backdrop-filter: none;
+    }
+
+    .materiasBoxSingle:nth-child(even){
+        float: none;
+    }
+
+    .materiasBoxSingle img {
+        background-size: 80% !important;
+    }
+
+}

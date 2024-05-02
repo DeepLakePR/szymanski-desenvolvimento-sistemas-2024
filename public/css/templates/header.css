@@ -1,27 +1,3 @@
-.headerNavUl {
-    list-style: none;
-    display: flex;
-}
-
-.headerNavUlCustomColor {
-    color: white;
-}
-
-.headerNavUl li {
-    font-weight: 300;
-    margin: 0 10px;
-    font-size: 22px;
-}
-
-.headerNavUl li a {
-    transition: all 0.25s ease-in-out;
-}
-
-.headerNavUl li a:hover {
-    color: #a7a7a7;
-}
-
-
 /* Header */
 .headerContainer {
     margin: 0 auto;
@@ -44,6 +20,29 @@
 
 .headerNav {
     padding: 5px;
+}
+
+.headerNavUlClasses {
+    list-style: none;
+    display: flex;
+}
+
+.headerNavUlClasses {
+    color: white;
+}
+
+.headerNavUlClasses li {
+    font-weight: 300;
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+.headerNavUlClasses li a {
+    transition: all 0.25s ease-in-out;
+}
+
+.headerNavUlClasses li a:hover {
+    color: #a7a7a7;
 }
 
 /**************************************/

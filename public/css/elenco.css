@@ -1,0 +1,34 @@
+.DEV_homeWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.DEV_homeBoxSingle {
+    width: 31.6%;
+    margin: 10px;
+    padding: 10px;
+    background: rgb(228, 228, 228);
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.DEV_homeBoxSingle img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.DEV_homeBoxSingle h3,
+.DEV_homeBoxSingle p {
+    padding: 0 10px;
+}
+
+.DEV_homeBoxSingle h3 {
+    margin: 7px 0 12px 0;
+    width: 75%;
+    border-bottom: 2px solid black;
+}
+
+.DEV_homeBoxSingle p {
+    font-weight: 300;
+    padding-bottom: 40px;
+}
