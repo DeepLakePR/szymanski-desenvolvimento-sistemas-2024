@@ -1,0 +1,27 @@
+:root {
+    --text-color-rgb: white;
+    --background-start-rgb: rgb(45, 45, 45);
+    --background-end-rgb: rgb(27, 27, 27);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    max-height: 100vh;
+    overflow: auto;
+}
+
+body {
+    color: var(--text-color-rgb);
+    background: linear-gradient(180deg, var(--background-start-rgb), var(--background-end-rgb));
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

@@ -1,0 +1,66 @@
+.headerNavUl {
+    list-style: none;
+    display: flex;
+}
+
+.headerNavUlCustomColor {
+    color: white;
+}
+
+.headerNavUl li {
+    font-weight: 300;
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+.headerNavUl li a {
+    transition: all 0.25s ease-in-out;
+}
+
+.headerNavUl li a:hover {
+    color: #a7a7a7;
+}
+
+
+/* Header */
+.headerContainer {
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.headerLogoDiv {
+    display: flex;
+    align-items: center;
+}
+
+.headerLogo {
+    max-height: 106px;
+    margin-right: 10px;
+}
+
+.headerNav {
+    padding: 5px;
+}
+
+/**************************************/
+/* Responsive */
+@media screen and (max-width: 650px) {
+
+    .header {
+        margin-bottom: 50px;
+    }
+
+    .headerContainer {
+        flex-direction: column;
+    }
+
+    .headerLogo {
+        max-height: 200px;
+        margin: 0;
+    }
+
+}
