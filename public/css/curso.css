@@ -53,7 +53,7 @@
 }
 
 .materiasBoxSingle:nth-child(1) img {
-    background-image: url('/public/assets/analise_bg.png');
+    background-image: url('../assets/analise_bg.png');
     background-size: 48%;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,7 +66,7 @@
 }
 
 .materiasBoxSingle:nth-child(2) img {
-    background-image: url('/public/assets/ciencias_bg.png');
+    background-image: url('../assets/ciencias_bg.png');
     background-size: 43%;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@
 }
 
 .materiasBoxSingle:nth-child(3) img {
-    background-image: url('/public/assets/frontend.png');
+    background-image: url('../assets/frontend.png');
     background-size: 43%;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@
 }
 
 .materiasBoxSingle:nth-child(4) img {
-    background-image: url('/public/assets/mobile.png');
+    background-image: url('../assets/mobile.png');
     background-size: 38%;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@
 }
 
 .materiasBoxSingle:nth-child(5) img {
-    background-image: url('/public/assets/banco_dados_bg.png');
+    background-image: url('../assets/banco_dados_bg.png');
     background-size: 40%;
     background-position: center;
     background-repeat: no-repeat;
