@@ -140,3 +140,11 @@
     }
 
 }
+
+@media screen and (max-width: 470px){
+
+    .materiasBoxSingle img {
+        background-size: 50% !important;
+    }
+
+}
