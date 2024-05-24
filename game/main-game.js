@@ -19,7 +19,7 @@ const background = new Sprite({
         x: 0,
         y: 0
     },
-    imageSrc: '/public/assets/game-assets/background.png'
+    imageSrc: '../public/assets/game-assets/background.png'
 });
 
 const shopSprite = new Sprite({
@@ -27,7 +27,7 @@ const shopSprite = new Sprite({
         x: 625,
         y: 160
     },
-    imageSrc: '/public/assets/game-assets/shop.png',
+    imageSrc: '../public/assets/game-assets/shop.png',
     scale: 2.5,
     framesMax: 6
 })
@@ -64,7 +64,7 @@ const player = new Fighter({
         x: 0,
         y: 10,
     },
-    imageSrc: '/public/assets/game-assets/samuraiMack/Idle.png',
+    imageSrc: '../public/assets/game-assets/samuraiMack/Idle.png',
     framesMax: 8,
     scale: 2.5,
     offset: {
@@ -73,31 +73,31 @@ const player = new Fighter({
     },
     sprites: {
         attack: {
-            imageSrc: '/public/assets/game-assets/samuraiMack/Attack1.png',
+            imageSrc: '../public/assets/game-assets/samuraiMack/Attack1.png',
             framesMax: 6,
         },
         idle: {
-            imageSrc: '/public/assets/game-assets/samuraiMack/Idle.png',
+            imageSrc: '../public/assets/game-assets/samuraiMack/Idle.png',
             framesMax: 8,
         },
         run: {
-            imageSrc: '/public/assets/game-assets/samuraiMack/Run.png',
+            imageSrc: '../public/assets/game-assets/samuraiMack/Run.png',
             framesMax: 8,
         },
         jump: {
-            imageSrc: '/public/assets/game-assets/samuraiMack/Jump.png',
+            imageSrc: '../public/assets/game-assets/samuraiMack/Jump.png',
             framesMax: 2,
         },
         fall: {
-            imageSrc: '/public/assets/game-assets/samuraiMack/Fall.png',
+            imageSrc: '../public/assets/game-assets/samuraiMack/Fall.png',
             framesMax: 2,
         },
         hit: {
-            imageSrc: '/public/assets/game-assets/samuraiMack/Take Hit - white silhouette.png',
+            imageSrc: '../public/assets/game-assets/samuraiMack/Take Hit - white silhouette.png',
             framesMax: 4
         },
         death: {
-            imageSrc: '/public/assets/game-assets/samuraiMack/Death.png',
+            imageSrc: '../public/assets/game-assets/samuraiMack/Death.png',
             framesMax: 6
         }
     },
@@ -120,7 +120,7 @@ const enemy = new Fighter({
         x: 0,
         y: 10,
     },
-    imageSrc: '/public/assets/game-assets/kenji/Idle.png',
+    imageSrc: '../public/assets/game-assets/kenji/Idle.png',
     framesMax: 4,
     scale: 2.5,
     offset: {
@@ -129,31 +129,31 @@ const enemy = new Fighter({
     },
     sprites: {
         attack: {
-            imageSrc: '/public/assets/game-assets/kenji/Attack1.png',
+            imageSrc: '../public/assets/game-assets/kenji/Attack1.png',
             framesMax: 4,
         },
         idle: {
-            imageSrc: '/public/assets/game-assets/kenji/Idle.png',
+            imageSrc: '../public/assets/game-assets/kenji/Idle.png',
             framesMax: 4,
         },
         run: {
-            imageSrc: '/public/assets/game-assets/kenji/Run.png',
+            imageSrc: '../public/assets/game-assets/kenji/Run.png',
             framesMax: 8,
         },
         jump: {
-            imageSrc: '/public/assets/game-assets/kenji/Jump.png',
+            imageSrc: '../public/assets/game-assets/kenji/Jump.png',
             framesMax: 2,
         },
         fall: {
-            imageSrc: '/public/assets/game-assets/kenji/Fall.png',
+            imageSrc: '../public/assets/game-assets/kenji/Fall.png',
             framesMax: 2,
         },
         hit: {
-            imageSrc: '/public/assets/game-assets/kenji/Take Hit.png',
+            imageSrc: '../public/assets/game-assets/kenji/Take Hit.png',
             framesMax: 3
         },
         death: {
-            imageSrc: '/public/assets/game-assets/kenji/Death.png',
+            imageSrc: '../public/assets/game-assets/kenji/Death.png',
             framesMax: 7
         }
     },
