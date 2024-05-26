@@ -1,14 +1,14 @@
 .postWrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 500px;
+    grid-auto-rows: 600px;
     gap: 25px;
 }
 
 .postBoxSingle {
     width: 100%;
     padding: 10px;
-    max-height: 500px;
+    max-height: 800px;
     background: rgb(45, 45, 45);
     border-radius: 4px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
@@ -18,10 +18,9 @@
 }
 
 .postBoxSingle img {
-    width: 85%;
+    width: 90%;
     border-radius: 6px;
-    min-height: 45%;
-    max-height: 45%;
+    height: 60%;
     object-fit: cover;
 }
 
@@ -52,7 +51,7 @@
     }
 
     .postBoxSingle img {
-        height: 200px;
+        height: 400px;
     }
 
 }
