@@ -20,7 +20,7 @@
 .postBoxSingle img {
     width: 90%;
     border-radius: 6px;
-    height: 60%;
+    height: 75%;
     object-fit: cover;
 }
 
@@ -38,7 +38,8 @@
 
 .postBoxSingle p {
     font-weight: 300;
-    padding-bottom: 40px;
+    padding-left: 16px;
+    width: 100%;
 }
 
 /**************************************/
@@ -50,8 +51,16 @@
         flex-direction: column;
     }
 
+    .postBoxSingle {
+        max-height: 900px;
+    }
+
     .postBoxSingle img {
         height: 400px;
+    }
+
+    .postBoxSingle p {
+        padding-bottom: 30px;
     }
 
 }
