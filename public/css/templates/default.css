@@ -16,3 +16,39 @@
     font-weight: 400;
     margin-bottom: 15px;
 }
+
+h2.year-title{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    margin: 50px 0;
+}
+
+a.game-link{
+    position: absolute;
+    text-align: center;
+    right: 40px;
+    bottom: 20px;
+    width: 15%;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    background: linear-gradient(to right, rgb(99, 3, 163), rgb(139, 7, 165));
+    box-shadow: 1px 1px 20px 6px #6e09a8;
+    transition: all 0.3s linear;
+}
+
+a.game-link:hover{
+    transform: scale(1.09);
+}
+
+/**************************************/
+/* Responsive */
+@media screen and (max-width: 878px){
+
+    a.game-link{
+        display: none;
+    }
+
+}

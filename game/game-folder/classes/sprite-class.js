@@ -28,7 +28,7 @@ class Sprite {
         this.framesMax = framesMax
         this.framesCurrent = 0;
         this.framesElapsed = 0;
-        this.framesHold = 4;
+        this.framesHold = 16;
 
         this.offset = offset;
 
@@ -57,9 +57,11 @@ class Sprite {
 
         if (this.framesElapsed % this.framesHold === 0) {
             if (this.framesCurrent < this.framesMax - 1) {
+                console.log('here');
                 this.framesCurrent++;
 
             } else {
+                console.log('0');
                 this.framesCurrent = 0;
 
             }

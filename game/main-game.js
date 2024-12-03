@@ -9,9 +9,9 @@ canvasElement.height = 576;
 canvas.fillRect(0, 0, canvasElement.width, canvasElement.height);
 
 // Game Config
-const gravity = 0.6; // 0.5
-const xAxisSpeed = 4.5;
-const yAxisSpeed = 15; // 8
+const gravity = 0.5; // 0.5
+const xAxisSpeed = 2;
+const yAxisSpeed = 16; // 8
 
 // Create Background
 const background = new Sprite({
